@@ -1,0 +1,120 @@
+.container {
+    border-radius: 25px;
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "views peackConcurrents totalWatchTime"
+    "chatRate avgViewDuration duration"
+    "footer footer footer"
+}
+
+.nav {
+    padding: 12px;
+    color: white;
+    background-color:#2a2828;
+    grid-area: nav;
+    font-weight: bold;
+}
+
+.main {
+    position: relative;
+    width: auto;
+    height: 250px;
+    grid-area: main;
+    color: white;
+}
+
+.views {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: views;
+    color: grey;
+}
+
+.peackConcurrents {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: peackConcurrents;
+    color: grey;
+}
+
+.totalWatchTime {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: totalWatchTime;
+    color: grey;
+}
+
+.chatRate {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: chatRate;
+    color: grey;
+}
+
+.avgViewDuration {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: avgViewDuration;
+    color: grey;
+}
+
+.duration {
+    padding: 15px;
+    background-color:#2a2828;
+    grid-area: duration;
+    color: grey;
+}
+
+.numbers {
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.image {
+    height: 100%;
+    width: 100%;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    font-size: 18px;
+
+}
+
+.btn1 {
+    color: gray;
+    margin: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn2 {
+    margin: 5px;
+    background-color: rgb(56, 175, 214);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.footer {
+    text-align: right;
+    padding: 10px;
+    background-color:#2a2828;
+    grid-area: footer;
+}
+
